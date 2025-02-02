@@ -11,11 +11,11 @@ mode: dark # default theme "dark" | "light"
 
 # Profile settings
 author:
-  name: Jekyll Klisé # author name
+  name: Mayuri-Ovino # author name
   bio: >- # tell to the world
     Your un-bypassable anticheat.
-  username: username # general username
-  github: github_username # github username
+  username: firanks # general username
+  github: mayuri-ovino # github username
   twitter: twitter_username # twitter username
   facebook: facebook_username # facebook username
   email: your-email@email.com # email adress
