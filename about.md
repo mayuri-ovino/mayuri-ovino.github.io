@@ -15,6 +15,7 @@ comments: false
 ### Bug Reporting:
 For any technical issues or bugs, please [report on our official Discord server](https://discord.gg/VDmXSDgt84)
 
+
 **for your needs 👌**
 
 - {{ site.author.email }}
