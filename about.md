@@ -7,9 +7,8 @@ comments: false
 ---
 
 ### Contact Information:
-- **Name**: Mayuri Ovino
+- **Name**: Mayuri-Ovino
 - **Discord ID**: `1087818726327451658`
-- **Email**: `metatableac@gmail.com`
 - **Roblox Username**: `@firanks`
 
 ### Bug Reporting:
