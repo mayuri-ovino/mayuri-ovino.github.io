@@ -2,12 +2,28 @@
 title: Acknowledgment
 permalink: /thanks/
 layout: page
-excerpt: Thanks to amazing people that i met, who help me out from follishness, connecting me with another good person, giving some advice when i'm at a bad things, pulling me from ordinary to be great.
+excerpt: Credits & Appreciations
 comments: false
 ---
 
-Thanks to amazing people that i met, who help me out from follishness, connecting me with another good person, giving some advice when i'm at a bad things, pulling me from ordinary to be great.
+Credits & Appreciations!!!! 
+
+### HexadecimalLiker's Anticheat Methods:
+
+For getting me into Anticheat development back in the day since it taught me alot about raw metatable hooking.
+
+### XoifailTheGod's Valkyrie Anticheat:
+
+Great open-source resource for study.
+
+### Kealomon's Visionary Anticheat:
+
+Saw alot of people crapping on it but is a good open-source resource for its Anti-Studio and AES-256 encryption. (I stole the AES-256 encryption by the way)
+
+### knightmb1's Knightmare Anticheat:
+
+I stole the speed detection 😁
 
 <hr>
 
-Hopefully the knowledge that I got from them can be useful, and become a charity for them, Aamiin.
+Again thank you to everyone on this list!
