@@ -6,16 +6,14 @@ excerpt: About the team!
 comments: false
 ---
 
-# Lead Developer -
+### Contact Information
+- **Name**: Mayuri Ovino
+- **Discord ID**: `1087818726327451658`
+- **Email**: `metatableac@gmail.com`
+- **Roblox Username**: `@firanks`
 
-- Mayuri Ovino:
-
-`Discord`:1087818726327451658
-`E-Mail`: metatableac@gmail.com
-`Roblox`: @firanks
-
-You can [report](https://discord.gg/VDmXSDgt84) any bugs or issues to our discord!
-
+### Bug Reporting
+For any technical issues or bugs, please [report on our official Discord server](https://discord.gg/VDmXSDgt84)
 **for your needs 👌**
 
 - {{ site.author.email }}
