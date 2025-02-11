@@ -1,6 +1,6 @@
 # Site settings
 title: Metatable Anti-Cheat # site title
-description: >- Your Luau Anti-Cheat Solution
+description: Your Luau Anti-Cheat Solution
 lang: en-US # default lang
 timezone: America/New_York # set your timezone
 image: assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
