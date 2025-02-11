@@ -1,7 +1,6 @@
 # Site settings
 title: /metatable # site title
-description: >- # site description
-  Metatable AC <a href="https://discord.gg/VDmXSDgt84" target="_blank" rel="noopener">@discord</a>.
+description: >-
 lang: en-US # default lang
 timezone: America/New_York # set your timezone
 image: assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
