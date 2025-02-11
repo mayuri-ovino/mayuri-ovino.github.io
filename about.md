@@ -10,7 +10,7 @@ comments: false
 - **Name**: Mayuri-Ovino
 - **Discord ID**: `1087818726327451658`
 - **Roblox Username**: `@firanks`
-- **Rle**: Lead Developer
+- **Role**: Lead Developer
 
 ### Bug Reporting:
 For any technical issues or bugs, please [report on our official Discord server](https://discord.gg/VDmXSDgt84)
