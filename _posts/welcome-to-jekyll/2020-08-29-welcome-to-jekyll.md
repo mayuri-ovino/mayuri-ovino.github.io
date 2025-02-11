@@ -1,34 +1,29 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2020-08-29 09:29:20 +0700
-categories: jekyll update
+title: "MetatableAC - Introduction"
+date: 2025-02-11 08:48:20 +0500
+categories: lua anticheat
 usemathjax: true
 ---
 
+MetatableAC is an anti-cheat methodology that utilizes Lua's functionality to monitor, control, and protect game-critical data and operations. By leveraging our anti-cheat, developers can create a layer of security that's deeply integrated into the game's core systems.
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+## Advantages of MetatableAC
 
+1.  **Deep Integration**: Operates at the core of Lua's functionality.
+2.  **Flexibility**: Can be tailored to specific game requirements.
+3.  **Performance**: Minimal overhead compared to other external anti-cheat solutions.
+4.  **Stealth**: Difficult for cheaters to detect and bypass.
 
-Jekyll requires blog post files to be named according to the following format:
+## Conclusion
 
-`YEAR-MONTH-DAY-title.MARKUP`
+MetatableAC represents an innovative approach to game security, particularly suited for Lua-based games. By leveraging the language's built-in features, developers can create a robust, integrated anti-cheat system. However, it should be part of a broader security strategy, combined with server-side validations and other anti-cheat measures for comprehensive protection.
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+## Purchasing
 
-Jekyll also offers powerful support for code snippets:
+Purchasing will be available after further public testing and approval.
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+## Community Engagement
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+Our discord is [https://discord.gg/VDmXSDgt84](https://discord.gg/VDmXSDgt84).
 
