@@ -6,14 +6,15 @@ excerpt: Showcase
 comments: false
 ---
 
-### Resume:
-- **Name**: Mayuri-Ovino
-- **Discord ID**: `1087818726327451658`
-- **Roblox Username**: `@firanks`
-- **Role**: Lead Developer
 
-Luau: (5 Years)
-C++: (2 years)
-C: (1 year)
+[Youtube Showcase](https://www.youtube.com/playlist?list=PLAK8gQN6BRqnbL_xezBLePO7IL4Sd97Vg)
 
-Games developed
+Detections:
+
+- Anti-Aimbot
+- Anti-Walkspeed
+- Anti-Noclip
+- Anti-Tamper
+- Anti-JumpPower
+- Anti-ESP
+- 
