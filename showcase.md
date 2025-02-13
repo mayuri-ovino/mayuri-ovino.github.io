@@ -17,4 +17,3 @@ Detections:
 - Anti-Tamper
 - Anti-JumpPower
 - Anti-ESP
-- 
