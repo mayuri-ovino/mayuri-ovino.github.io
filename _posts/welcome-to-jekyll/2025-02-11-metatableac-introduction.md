@@ -13,7 +13,8 @@ MetatableAC is an anti-cheat methodology that utilizes Lua's functionality to mo
 1.  **Deep Integration**: Operates at the core of Lua's functionality.
 2.  **Flexibility**: Can be tailored to specific game requirements.
 3.  **Performance**: Minimal overhead compared to other external anti-cheat solutions.
-4.  **Stealth**: Difficult for cheaters to detect and bypass.
+4.  **Stealth**: Extraordinarily difficult for cheaters to detect and bypass.
+5.  **Developer Support**: We provide strong support for developers, assisting them in implementation.
 
 ## TL;DR
 
