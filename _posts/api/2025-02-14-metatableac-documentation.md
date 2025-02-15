@@ -5,77 +5,86 @@ date: 2025-02-14 08:57:20 +0500
 categories: lua anticheat
 usemathjax: true
 ---
-MetatableAC - Documentation
 =============================
 
 Documentation format:
 -------------------------------------
 
 The documentation uses the following format for function descriptions:
-```lua
-    <return_type> function_name(<argument_type> argument_name)
-```
-<br><br><br>
-<h1> Internal Functions: </h1>
+
+    <span style="color: red;"><</span><span style="color: yellow;">return_type</span><span style="color: red;">></span> function_name<span style="color: red;">(</span><span style="color: yellow;">argument_type</span> <span style="color: blue;">argument_name</span><span style="color: red;">)</span>
 
 ---
 
-<h2> Punish Player </h2>
+<br><br><br>
 
-```lua
-    <void> Punishment(<Player> player, <string> Reason, <number> Severity)
-```
+## Punish Player
+
+<h1>Punishment</h1>
+
+    <span style="color: red;"><</span><span style="color: yellow;">void</span><span style="color: red;">></span> Punishment<span style="color: red;">(</span><span style="color: yellow;">Player</span> <span style="color: blue;">player</span><span style="color: blue;">,</span> <span style="color: yellow;">string</span> <span style="color: blue;">Reason</span><span style="color: blue;">,</span> <span style="color: yellow;">number</span> <span style="color: blue;">Severity</span><span style="color: red;">)</span>
 
 Punishes the player from the game with the default punishment dependant on the severity number.
 
-<h4>(0: Flag, 1: Warn, 2: Mute, 3: Kick, 4: Temp Ban 5: Perm Ban)</h4>
+(0: Flag, 1: Warn, 2: Mute, 3: Kick, 4: Temp Ban 5: Perm Ban)
+
 ---
 
-<h2> Custom Punish Player  </h2>
+## Custom Punish Player
 
-```lua
-    <void> CustomPunishment(<Player> player, <string> Reason)
-```
+<h1>CustomPunishment</h1>
+
+    <span style="color: red;"><</span><span style="color: yellow;">void</span><span style="color: red;">></span> CustomPunishment<span style="color: red;">(</span><span style="color: yellow;">Player</span> <span style="color: blue;">player</span><span style="color: blue;">,</span> <span style="color: yellow;">string</span> <span style="color: blue;">Reason</span><span style="color: red;">)</span>
 
 Punishes the player from the game with a custom punishment (Kick, Ban, etc.).
 
-<h2> Set Max Walkspeed </h2>
+---
 
-```lua
-    <void> SetMaxWalkspeed(<Player> player, <number> Speed)
-```
+## Set Max Walkspeed
+
+<h1>SetMaxWalkspeed</h1>
+
+    <span style="color: red;"><</span><span style="color: yellow;">void</span><span style="color: red;">></span> SetMaxWalkspeed<span style="color: red;">(</span><span style="color: yellow;">Player</span> <span style="color: blue;">player</span><span style="color: blue;">,</span> <span style="color: yellow;">number</span> <span style="color: blue;">Speed</span><span style="color: red;">)</span>
 
 Sets the player's walkspeed serverside with consideration to server-side and client-side anticheat.
 
-<h2> Set Max Walkspeed Global </h2>
+---
 
-```lua
-    <void> SetMaxWalkspeedGlobal(<number> Speed)
-```
+## Set Max Walkspeed Global
+
+<h1>SetMaxWalkspeedGlobal</h1>
+
+    <span style="color: red;"><</span><span style="color: yellow;">void</span><span style="color: red;">></span> SetMaxWalkspeedGlobal<span style="color: red;">(</span><span style="color: yellow;">number</span> <span style="color: blue;">Speed</span><span style="color: red;">)</span>
 
 Sets a concurrent walkspeed for all players with consideration to server-side and client-side anticheat.
 
-<h2> Flag For Review </h2>
+---
 
-```lua
-    <void> flagForReview(<Player> player)
-```
+## Flag For Review
+
+<h1>FlagForReview</h1>
+
+    <span style="color: red;"><</span><span style="color: yellow;">void</span><span style="color: red;">></span> flagForReview<span style="color: red;">(</span><span style="color: yellow;">Player</span> <span style="color: blue;">player</span><span style="color: red;">)</span>
 
 Logs a player's suspicious activity for manual review via custom function.
 
-<h2> Disable Chat </h2>
+---
 
-```lua
-    <void> disableChat(<Player> player, <number> Duration)
-```
+## Disable Chat
+
+<h1>DisableChat</h1>
+
+    <span style="color: red;"><</span><span style="color: yellow;">void</span><span style="color: red;">></span> disableChat<span style="color: red;">(</span><span style="color: yellow;">Player</span> <span style="color: blue;">player</span><span style="color: blue;">,</span> <span style="color: yellow;">number</span> <span style="color: blue;">Duration</span><span style="color: red;">)</span>
 
 Disables a player's chat ability for a set duration.
 
-<h2> Reset Player Stats </h2>
+---
 
-```lua
-    <void> resetPlayerStats(<Player> player)
-```
+## Reset Player Stats
+
+<h1>ResetPlayerStats</h1>
+
+    <span style="color: red;"><</span><span style="color: yellow;">void</span><span style="color: red;">></span> resetPlayerStats<span style="color: red;">(</span><span style="color: yellow;">Player</span> <span style="color: blue;">player</span><span style="color: red;">)</span>
 
 Wipes a player's stats completely clean from all databases.
 
