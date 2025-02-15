@@ -16,6 +16,8 @@ The documentation uses the following format for function descriptions:
     <return_type> function_name(<argument_type> argument_name)
 ```
 <br><br><br>
+<h1> Anticheat Functions: </h1>
+
 ---
 
 <h2> Punish Player </h2>
