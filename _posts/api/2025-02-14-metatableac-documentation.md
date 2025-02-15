@@ -12,15 +12,18 @@ usemathjax: true
 <return_type> function_name(<argument_type> argument_name)
 ```
 
-<void> Punishment(<Player>, player, <string> Reason)  
+```lua
+<void> Punishment(<Player>, player, <string> Reason)
+```
 Punishes the player from the game with the default punishment. (Kick)
 ```lua
   metatable_module.Punishment:Connect(function(player, Reason)
 	  player:Kick(Reason)
   end)
 ```
-
-<void> CustomPunishment(<Player>, player, <string> Reason)  
+```lua
+<void> CustomPunishment(<Player>, player, <string> Reason)
+```
 Punishes the player from the game with a custom punishment. (Kick, Ban, ETC)
 ```lua
   metatable_module.Punishment:Connect(function(player, Reason)
