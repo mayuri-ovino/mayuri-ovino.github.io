@@ -15,9 +15,9 @@ MetatableAC is an anti-cheat methodology that utilizes Lua's functionality to mo
 3.  **Performance**: Minimal overhead compared to other external anti-cheat solutions.
 4.  **Stealth**: Difficult for cheaters to detect and bypass.
 
-## Conclusion
+## TL;DR
 
-MetatableAC represents an innovative approach to game security, particularly suited for Lua-based games. By leveraging the language's built-in features, developers can create a robust, integrated anti-cheat system. However, it should be part of a broader security strategy, combined with server-side validations and other anti-cheat measures for comprehensive protection.
+MetatableAC is an anti-cheat methodology that uses Lua's functionality to monitor, control, and protect game-critical data and operations. It represents an innovative approach to game security, particularly suited for Lua-based games. By leveraging the language's built-in features, developers can uphold their games integrity.
 
 ## Purchasing
 
