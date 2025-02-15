@@ -3,13 +3,13 @@ Documentation format:
 
 The documentation uses the following format for function descriptions:
 
-<span style="color: #d8235e;"><</span><span style="color: #d3ce9e;">return_type</span><span style="color: #d8235e;">></span> function_name<span style="color: #d8235e;">(</span><span style="color: #d3ce9e;">argument_type</span> <span style="color: #5ec2d4;">argument_name</span><span style="color: #d8235e;">)</span>
+<span style="color: #d8235e;"> <</span><span style="color: #d3ce9e;">return_type</span><span style="color: #d8235e;">></span> function_name<span style="color: #d8235e;">(</span><span style="color: #d3ce9e;">argument_type</span> <span style="color: #5ec2d4;">argument_name</span><span style="color: #d8235e;">)</span>
 
 ---
 
 ## Punish Player
 
-<span style="color: #d8235e;"><</span><span style="color: #d3ce9e;">void</span><span style="color: #d8235e;">></span> Punishment<span style="color: #d8235e;">(</span><span style="color: #d3ce9e;">Player</span> <span style="color: #5ec2d4;">player</span><span style="color: #5ec2d4;">,</span> <span style="color: #d3ce9e;">string</span> <span style="color: #5ec2d4;">Reason</span><span style="color: #5ec2d4;">,</span> <span style="color: #d3ce9e;">number</span> <span style="color: #5ec2d4;">Severity</span><span style="color: #d8235e;">)</span>
+<span style="color: #d8235e;"> <</span><span style="color: #d3ce9e;">void</span><span style="color: #d8235e;">></span> Punishment<span style="color: #d8235e;">(</span><span style="color: #d3ce9e;">Player</span> <span style="color: #5ec2d4;">player</span><span style="color: #5ec2d4;">,</span> <span style="color: #d3ce9e;">string</span> <span style="color: #5ec2d4;">Reason</span><span style="color: #5ec2d4;">,</span> <span style="color: #d3ce9e;">number</span> <span style="color: #5ec2d4;">Severity</span><span style="color: #d8235e;">)</span>
 
 <span style="color: #dcdcdc;">Punishes the player from the game with the default punishment dependant on the severity number.</span>
 
