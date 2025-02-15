@@ -12,24 +12,24 @@ Documentation format:
 -------------------------------------
 
 The documentation uses the following format for function descriptions:
-
+```lua
     <return_type> function_name(<argument_type> argument_name)
-
+```
 ---
 
 <h2> Punish Player </h2>
-
+```lua
     <void> Punishment(<Player> player, <string> Reason, <number> Severity)
-
+```
 Punishes the player from the game with the default punishment dependant on the severity number.
 
 <h4>(0: Flag, 1: Warn, 2: Mute, 3: Kick, 4: Temp Ban 5: Perm Ban)</h4>
 ---
 
 <h2> Custom Punish Player  </h2>
-
+```lua
     <void> CustomPunishment(<Player> player, <string> Reason)
-
+```
 Punishes the player from the game with a custom punishment (Kick, Ban, etc.).
 
 <h2> Set Max Walkspeed </h2>
