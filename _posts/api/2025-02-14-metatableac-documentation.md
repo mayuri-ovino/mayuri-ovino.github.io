@@ -17,7 +17,7 @@ The documentation uses the following format for function descriptions:
 
 ---
 
-<h1> Punish Player
+<h1> Punish Player </h1>
 
     <void> Punishment(<Player> player, <string> Reason, <number> Severity)
 
@@ -26,7 +26,7 @@ Punishes the player from the game with the default punishment dependant on the s
 (0: Flag, 1: Warn, 2: Mute, 3: Kick, 4: Temp Ban 5: Perm Ban)
 ---
 
-<h1> Custom Punish Player
+<h1> Custom Punish Player </h1>
 
     <void> CustomPunishment(<Player> player, <string> Reason)
 
