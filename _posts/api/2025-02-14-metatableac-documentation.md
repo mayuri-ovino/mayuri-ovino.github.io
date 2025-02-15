@@ -17,39 +17,44 @@ The documentation uses the following format for function descriptions:
 
 ---
 
-Punishment Function:
+# Punishment Player
 
-    <void> Punishment(<Player> player, <string> Reason)
+    <void> Punishment(<Player> player, <string> Reason, <number> Severity)
 
-Punishes the player from the game with the default punishment (Kick).
+Punishes the player from the game with the default punishment dependant on the severity number.
 
-Example Usage:
-
-    metatable_module.Punishment:Connect(function(player, Reason)
-    	player:Kick(Reason)
-    end)
-
+(0: Flag, 1: Warn, 2: Mute, 3: Kick, 4: Temp Ban 5: Perm Ban)
 ---
 
-CustomPunishment Function
+# Custom Punish Player
 
     <void> CustomPunishment(<Player> player, <string> Reason)
 
 Punishes the player from the game with a custom punishment (Kick, Ban, etc.).
 
-Example Usage:
+# Set Max Walkspeed
+    <void> SetMaxWalkspeed(<Player> player, <number> Speed)
 
-    metatable_module.Punishment:Connect(function(player, Reason)
-        local config = {
-            UserIds = {player.UserId},
-            Duration = -1,
-            DisplayReason = "You were hit with a BAN HAMMER!!",
-            ExcludeAltAccounts = false,
-        }
+Sets the player's walkspeed serverside with consideration to server-side and client-side anticheat.
 
-        local success, err = pcall(function()
-            return Players:BanAsync(config)
-        end)
-    end)
+# Set Max Walkspeed Global
+    <void> SetMaxWalkspeedGlobal(<number> Speed)
+
+Sets a concurrent walkspeed for all players with consideration to server-side and client-side anticheat.
+
+# Flag For Review
+    <void> flagForReview(<Player> player)
+
+Logs a player's suspicious activity for manual review via custom function.
+
+# Disable Chat
+    <void> disableChat(<Player> player, <number> Duration)
+
+Disables a player's chat ability for a set duration.
+
+# Reset Player Stats
+    <void> resetPlayerStats(<Player> player)
+
+Wipes a player's stats completely clean from all databases.
 
 ---
