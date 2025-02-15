@@ -1,64 +1,80 @@
-Documentation format:
--------------------------------------
+---
+layout: post
+title: "MetatableAC - Documentation"
+date: 2025-02-14 08:57:20 +0500
+categories: lua anticheat
+usemathjax: true
+---
+
+<style>
+.return-type { color: #d3ce9e; }
+.function-name { color: #dcdcdc; }
+.argument-type { color: #d3ce9e; }
+.argument-name { color: #5ec2d4; }
+.punctuation { color: #d8235e; }
+.description { color: #dcdcdc; }
+</style>
+
+## Documentation format:
 
 The documentation uses the following format for function descriptions:
 
-<span style="color: #d8235e;"> <</span><span style="color: #d3ce9e;">return_type</span><span style="color: #d8235e;">></span> function_name<span style="color: #d8235e;">(</span><span style="color: #d3ce9e;">argument_type</span> <span style="color: #5ec2d4;">argument_name</span><span style="color: #d8235e;">)</span>
+<pre><code><span class="punctuation"><</span><span class="return-type">return_type</span><span class="punctuation">></span> <span class="function-name">function_name</span><span class="punctuation">(</span><span class="argument-type">argument_type</span> <span class="argument-name">argument_name</span><span class="punctuation">)</span></code></pre>
 
 ---
 
 ## Punish Player
 
-<span style="color: #d8235e;"> <</span><span style="color: #d3ce9e;">void</span><span style="color: #d8235e;">></span> Punishment<span style="color: #d8235e;">(</span><span style="color: #d3ce9e;">Player</span> <span style="color: #5ec2d4;">player</span><span style="color: #5ec2d4;">,</span> <span style="color: #d3ce9e;">string</span> <span style="color: #5ec2d4;">Reason</span><span style="color: #5ec2d4;">,</span> <span style="color: #d3ce9e;">number</span> <span style="color: #5ec2d4;">Severity</span><span style="color: #d8235e;">)</span>
+<pre><code><span class="punctuation"><</span><span class="return-type">void</span><span class="punctuation">></span> <span class="function-name">Punishment</span><span class="punctuation">(</span><span class="argument-type">Player</span> <span class="argument-name">player</span><span class="punctuation">,</span> <span class="argument-type">string</span> <span class="argument-name">Reason</span><span class="punctuation">,</span> <span class="argument-type">number</span> <span class="argument-name">Severity</span><span class="punctuation">)</span></code></pre>
 
-<span style="color: #dcdcdc;">Punishes the player from the game with the default punishment dependant on the severity number.</span>
+<p class="description">Punishes the player from the game with the default punishment dependant on the severity number.</p>
 
-<span style="color: #dcdcdc;">(0: Flag, 1: Warn, 2: Mute, 3: Kick, 4: Temp Ban 5: Perm Ban)</span>
+<p class="description">(0: Flag, 1: Warn, 2: Mute, 3: Kick, 4: Temp Ban 5: Perm Ban)</p>
 
 ---
 
 ## Custom Punish Player
 
-<span style="color: #d8235e;"><</span><span style="color: #d3ce9e;">void</span><span style="color: #d8235e;">></span> CustomPunishment<span style="color: #d8235e;">(</span><span style="color: #d3ce9e;">Player</span> <span style="color: #5ec2d4;">player</span><span style="color: #5ec2d4;">,</span> <span style="color: #d3ce9e;">string</span> <span style="color: #5ec2d4;">Reason</span><span style="color: #d8235e;">)</span>
+<pre><code><span class="punctuation"><</span><span class="return-type">void</span><span class="punctuation">></span> <span class="function-name">CustomPunishment</span><span class="punctuation">(</span><span class="argument-type">Player</span> <span class="argument-name">player</span><span class="punctuation">,</span> <span class="argument-type">string</span> <span class="argument-name">Reason</span><span class="punctuation">)</span></code></pre>
 
-<span style="color: #dcdcdc;">Punishes the player from the game with the custom punishment (Kick, Ban, etc.).</span>
+<p class="description">Punishes the player from the game with the custom punishment (Kick, Ban, etc.).</p>
 
 ---
 
 ## Set Max Walkspeed
 
-<span style="color: #d8235e;"><</span><span style="color: #d3ce9e;">void</span><span style="color: #d8235e;">></span> SetMaxWalkspeed<span style="color: #d8235e;">(</span><span style="color: #d3ce9e;">Player</span> <span style="color: #5ec2d4;">player</span><span style="color: #5ec2d4;">,</span> <span style="color: #d3ce9e;">number</span> <span style="color: #5ec2d4;">Speed</span><span style="color: #d8235e;">)</span>
+<pre><code><span class="punctuation"><</span><span class="return-type">void</span><span class="punctuation">></span> <span class="function-name">SetMaxWalkspeed</span><span class="punctuation">(</span><span class="argument-type">Player</span> <span class="argument-name">player</span><span class="punctuation">,</span> <span class="argument-type">number</span> <span class="argument-name">Speed</span><span class="punctuation">)</span></code></pre>
 
-<span style="color: #dcdcdc;">Sets the player's walkspeed serverside with consideration to server-side and client-side anticheat.</span>
+<p class="description">Sets the player's walkspeed serverside with consideration to server-side and client-side anticheat.</p>
 
 ---
 
 ## Set Max Walkspeed Global
 
-<span style="color: #d8235e;"><</span><span style="color: #d3ce9e;">void</span><span style="color: #d8235e;">></span> SetMaxWalkspeedGlobal<span style="color: #d8235e;">(</span><span style="color: #d3ce9e;">number</span> <span style="color: #5ec2d4;">Speed</span><span style="color: #d8235e;">)</span>
+<pre><code><span class="punctuation"><</span><span class="return-type">void</span><span class="punctuation">></span> <span class="function-name">SetMaxWalkspeedGlobal</span><span class="punctuation">(</span><span class="argument-type">number</span> <span class="argument-name">Speed</span><span class="punctuation">)</span></code></pre>
 
-<span style="color: #dcdcdc;">Sets a concurrent walkspeed for all players with consideration to server-side and client-side anticheat.</span>
+<p class="description">Sets a concurrent walkspeed for all players with consideration to server-side and client-side anticheat.</p>
 
 ---
 
 ## Flag For Review
 
-<span style="color: #d8235e;"><</span><span style="color: #d3ce9e;">void</span><span style="color: #d8235e;">></span> flagForReview<span style="color: #d8235e;">(</span><span style="color: #d3ce9e;">Player</span> <span style="color: #5ec2d4;">player</span><span style="color: #d8235e;">)</span>
+<pre><code><span class="punctuation"><</span><span class="return-type">void</span><span class="punctuation">></span> <span class="function-name">flagForReview</span><span class="punctuation">(</span><span class="argument-type">Player</span> <span class="argument-name">player</span><span class="punctuation">)</span></code></pre>
 
-<span style="color: #dcdcdc;">Logs a player's suspicious activity for manual review via custom function.</span>
+<p class="description">Logs a player's suspicious activity for manual review via custom function.</p>
 
 ---
 
 ## Disable Chat
 
-<span style="color: #d8235e;"><</span><span style="color: #d3ce9e;">void</span><span style="color: #d8235e;">></span> disableChat<span style="color: #d8235e;">(</span><span style="color: #d3ce9e;">Player</span> <span style="color: #5ec2d4;">player</span><span style="color: #5ec2d4;">,</span> <span style="color: #d3ce9e;">number</span> <span style="color: #5ec2d4;">Duration</span><span style="color: #d8235e;">)</span>
+<pre><code><span class="punctuation"><</span><span class="return-type">void</span><span class="punctuation">></span> <span class="function-name">disableChat</span><span class="punctuation">(</span><span class="argument-type">Player</span> <span class="argument-name">player</span><span class="punctuation">,</span> <span class="argument-type">number</span> <span class="argument-name">Duration</span><span class="punctuation">)</span></code></pre>
 
-<span style="color: #dcdcdc;">Disables a player's chat ability for a set duration.</span>
+<p class="description">Disables a player's chat ability for a set duration.</p>
 
 ---
 
 ## Reset Player Stats
 
-<span style="color: #d8235e;"><</span><span style="color: #d3ce9e;">void</span><span style="color: #d8235e;">></span> resetPlayerStats<span style="color: #d8235e;">(</span><span style="color: #d3ce9e;">Player</span> <span style="color: #5ec2d4;">player</span><span style="color: #d8235e;">)</span>
+<pre><code><span class="punctuation"><</span><span class="return-type">void</span><span class="punctuation">></span> <span class="function-name">resetPlayerStats</span><span class="punctuation">(</span><span class="argument-type">Player</span> <span class="argument-name">player</span><span class="punctuation">)</span></code></pre>
 
-<span style="color: #dcdcdc;">Wipes a player's stats completely clean from all databases.</span>
+<p class="description">Wipes a player's stats completely clean from all databases.</p>
