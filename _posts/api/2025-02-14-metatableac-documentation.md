@@ -18,7 +18,6 @@ The documentation uses the following format for function descriptions:
 ---
 
 Punishment Function:
---------------------
 
     <void> Punishment(<Player> player, <string> Reason)
 
@@ -33,7 +32,6 @@ Example Usage:
 ---
 
 CustomPunishment Function
---------------------------
 
     <void> CustomPunishment(<Player> player, <string> Reason)
 
