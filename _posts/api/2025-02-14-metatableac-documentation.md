@@ -7,9 +7,9 @@ usemathjax: true
 ---
 
 <style>
-.return-type { color: #d3ce9e; }
-.function-name { color: #dcdcdc; }
-.argument-type { color: #d3ce9e; }
+.return-type { color: #5ec2d4; }
+.function-name { color: #d7cd6e; }
+.argument-type { color: #5ec2d4; }
 .argument-name { color: #5ec2d4; }
 .punctuation { color: #d8235e; }
 .description { color: #dcdcdc; }
