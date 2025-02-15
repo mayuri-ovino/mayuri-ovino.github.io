@@ -10,7 +10,7 @@ usemathjax: true
 .return-type { color: #5ec2d4; }
 .function-name { color: #d7cd6e; }
 .argument-type { color: #5ec2d4; }
-.argument-name { color: #5ec2d4; }
+.argument-name { color: #e6e6e6; }
 .punctuation { color: #d8235e; }
 .description { color: #dcdcdc; }
 </style>
