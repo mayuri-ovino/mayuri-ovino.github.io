@@ -8,10 +8,15 @@ comments: false
 
 Credits & Appreciations!!!! 
 
-[https://www.lua.org]
+[https://www.lua.org](https://www.lua.org)
 <br>
-[https://www.luau.org]
+[https://www.luau.org](https://www.luau.org)
 <br>
-[https://www.github.com/luau-lang/luau]
-
-I would like to thank everyone who contributed to the development of this anti-cheat system. I would mention some people or posts but I cannot so this is just a page where I can thank people even if I can't mention them to the public.
+[https://www.github.com/luau-lang/luau](https://www.github.com/luau-lang/luau)
+<br>
+[https://github.com/Roblox/creator-docs/blob/main/content/en-us/luau/metatables.md](https://github.com/Roblox/creator-docs/blob/main/content/en-us/luau/metatables.md)
+<br>
+[https://synapsexdocs.github.io/](https://synapsexdocs.github.io/)
+<br>
+[https://duckys-playground.gitbook.io/wave/getting-started](https://duckys-playground.gitbook.io/wave/getting-started)
+<br>
